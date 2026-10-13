@@ -1,0 +1,24 @@
+{
+  "name": "adventofcode-2015-abap",
+  "version": "1.0.0",
+  "description": "Advent of Code 2015 solutions in ABAP, with SAP and local Node.js execution.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bizhuka/adventofcode-2015-abap.git"
+  },
+  "type": "module",
+  "scripts": {
+    "verify": "abaplint && node scripts/build.mjs && node scripts/run-tests.mjs && node --test runtime/day04.test.mjs runtime/digest.test.mjs",
+    "start": "node scripts/start.js"
+  },
+  "devDependencies": {
+    "@abaplint/cli": "2.120.76",
+    "@abaplint/core": "2.120.76",
+    "@abaplint/transpiler-cli": "2.14.3",
+    "open-abap-core": "https://codeload.github.com/open-abap/open-abap-core/tar.gz/5af9e69469ca5515f0306373d2a1f4ed92d14b78"
+  },
+  "dependencies": {
+    "@abaplint/database-sqlite": "2.13.83",
+    "@abaplint/runtime": "2.14.3"
+  }
+}

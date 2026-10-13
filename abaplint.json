@@ -1,0 +1,24 @@
+{
+  "global": {
+    "files": "/{src,std}/**/*.*"
+  },
+  "dependencies": [
+    {
+      "folder": "/node_modules/open-abap-core",
+      "files": "/src/**/*.*",
+      "skip": []
+    }
+  ],
+  "syntax": {
+    "version": "v755",
+    "errorNamespace": "^(Z|Y|LCL_|TY_|LIF_)",
+    "globalConstants": [],
+    "globalMacros": []
+  },
+  "rules": {
+    "parser_error": true,
+    "unknown_types": true,
+    "check_syntax": true,
+    "downport": true
+  }
+}

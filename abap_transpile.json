@@ -1,0 +1,22 @@
+{
+  "input_folder": ["src", "std"],
+  "output_folder": "output",
+  "exclude": [],
+  "libs": [{
+    "folder": "/node_modules/open-abap-core",
+    "files": "/src/**/*.*",
+    "exclude_filter": []
+  }],
+
+  "write_unit_tests": false,
+  "write_source_map": false,
+  "options": {
+    "ignoreSyntaxCheck": false,
+    "addFilenames": false,
+    "addCommonJS": true,
+    "unknownTypes": "compileError",
+    "setup": {
+
+    }
+  }
+}

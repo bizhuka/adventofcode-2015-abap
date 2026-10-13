@@ -1,0 +1,4 @@
+* text=auto eol=lf
+
+# Preserve puzzle-input bytes, including CRLF, for W3MI imports.
+*.w3mi.data.txt -text whitespace=cr-at-eol

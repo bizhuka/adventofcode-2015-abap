@@ -1,0 +1,21 @@
+node_modules/
+output/
+
+# Local benchmarks, verification logs, and temporary files
+.bench*/
+*.log
+*.cpuprofile
+*.tmp
+
+# Local configuration and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
